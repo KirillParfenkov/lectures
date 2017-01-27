@@ -39,4 +39,9 @@ public class SlopingCapacity implements Capacity {
     public void fill(Liquid liquid) {
         this.liquid = liquid;
     }
+
+    @Override
+    public double getMass() {
+        return 0;
+    }
 }

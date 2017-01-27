@@ -35,8 +35,7 @@ public class Main {
         });
 
         for(Capacity capacity: capacities) {
-            System.out.println(capacities.toString()):
+            System.out.println(capacities.toString());
         }
-
     }
 }

@@ -36,5 +36,8 @@ public class StraightCapacity implements Capacity {
         this.liquid = liquid;
     }
 
-
+    @Override
+    public double getMass() {
+        return 0;
+    }
 }
